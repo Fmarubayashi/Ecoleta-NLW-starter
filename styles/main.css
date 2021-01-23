@@ -41,7 +41,7 @@ Caixar também podem ter alinhamentos e posicionamentos
 
 #page-home{
     height: 100vh; /*dinamico*/
-    background: url('../../assets/home-background.svg') no-repeat;
+    background: url('../assets/home-background.svg') no-repeat;
     background-position: 35vw bottom;
 }
 
@@ -73,7 +73,7 @@ Caixar também podem ter alinhamentos e posicionamentos
     margin-right: 16px;
     display: flex;
     
-    background-image: url(/assets/log-in.svg);
+    background-image: url('../assets/log-in.svg');
     width: 20px;
     height: 20px;
 }
@@ -131,7 +131,7 @@ Caixar também podem ter alinhamentos e posicionamentos
 
 #page-home main a span::after {
     content: "";
-    background-image: url('../../assets/search.svg');
+    background-image: url('../assets/search.svg');
     
     width: 20px;
     height: 20px;
@@ -164,6 +164,6 @@ Caixar também podem ter alinhamentos e posicionamentos
 
     #page-home main {
         align-items: center;
-        
+
     }
 }
